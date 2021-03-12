@@ -79,6 +79,10 @@ NSString* const CDVViewWillTransitionToSizeNotification = @"CDVViewWillTransitio
     return self;
 }
 
+-(void) apply_stuff_to_configuration: (id) configuration {
+    
+}
+
 - (void)pluginInitialize
 {
     // You can listen to more app notifications, see:
