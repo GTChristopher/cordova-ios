@@ -53,7 +53,7 @@ extern NSString* const CDVViewWillTransitionToSizeNotification;
 @property (readonly, assign) BOOL hasPendingOperation;
 
 - (void)pluginInitialize;
-- (void)apply_stuff_to_configuration: (WKWebViewConfiguration*) configuration;
+- (void)apply_stuff_to_configuration: (id) configuration;
 
 - (void)handleOpenURL:(NSNotification*)notification;
 - (void)handleOpenURLWithApplicationSourceAndAnnotation:(NSNotification*)notification;
